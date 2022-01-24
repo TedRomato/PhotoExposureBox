@@ -61,6 +61,7 @@ void loop() {
     if(pushButtonPressed()) {
       state = 1;
       powerLEDs(true);
+      displayTimer("Time left: ", timer);
     }
   }
 
